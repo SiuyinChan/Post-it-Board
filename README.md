@@ -15,14 +15,20 @@ A simple post-it board that allows users to create, view, and manage virtual pos
 
 - Update and delete post-it notes as needed, keeping the board clutter-free and up-to-date.
 
+## Technologies Used
+- Vue.js
+- Express.js
+- HTML / Sass
+- MongoDB
+
 ## Installation
 1. Install dependencies for the server (Express.js):
 ```
-cd backend
+cd server
 npm install
 ```
 
-2. Create a `.env` file in the `backend` directory:
+2. Create a `.env` file in the `server` directory:
 ```
 cp .env.example .env
 ```
@@ -34,9 +40,9 @@ DB_USERNAME=your_db_username
 DB_PASSWORD=your_db_password
 ```
 
-4.Install dependencies for the client (Vue.js)::
+4. Install dependencies for the client (Vue.js):
 ```
-cd frontend
+cd client
 npm install
 ```
 
@@ -49,4 +55,4 @@ npm start
 npm run serve
 ```
 
-7. Open your browser and visit http://localhost:8080 to access the Post-It Board.
+6. Open your browser and visit http://localhost:8080 to access the Post-It Board.
